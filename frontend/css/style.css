@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    background-color: whitesmoke;
+    font-size: 1.3rem;
+    font-family: Tahoma;
+}
+
+header{
+    background-color: rgb(58, 58, 58);
+    padding: 10px;
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    justify-content: space-around;
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+main{
+    background-color: rgb(78, 78, 78);
+    padding: 10px;
+    width: 100%;
+    max-width: 500px;
+}
+
+input,button, select{
+    background-color: gray;
+    padding: 10px;
+    border-radius: 6px;
+}
