@@ -42,3 +42,15 @@ input,button, select{
     padding: 10px;
     border-radius: 6px;
 }
+
+thead{
+    background-color: white;
+    border: solid 2px black;
+    padding: 10px;
+}
+
+tbody{
+    background-color: white;
+    border: solid 2px black;
+    padding: 10px;
+}
